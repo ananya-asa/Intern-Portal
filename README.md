@@ -99,7 +99,7 @@ Returns dummy intern data { name, referralCode, donations }
 
 ## Screenshots
 
-> Replace with your actual screenshots in ./screenshots/
+
 
 ./screenshots/home.png
 ./screenshots/dashboard.png
