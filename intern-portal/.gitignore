@@ -1,0 +1,24 @@
+# === Node Modules ===
+Frontend/node_modules/
+Backend/node_modules/
+
+# === Build Outputs ===
+Frontend/dist/
+Frontend/build/
+Backend/dist/
+Backend/build/
+
+# === Environment Variables ===
+Frontend/.env
+Backend/.env
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Vite Cache ===
+Frontend/.vite/
+
+# === System Files ===
+.DS_Store

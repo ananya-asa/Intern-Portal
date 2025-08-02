@@ -1,0 +1,79 @@
+.leaderboard-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: var(--card-bg-color);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  color: var(--text-color);
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--button-bg-color);
+  color: var(--nav-bg-color);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: var(--button-text-color);
+  color: var(--button-bg-color);
+  transform: scale(1.05);
+}
+
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #3ac2c7;
+  margin-bottom: 24px;
+}
+
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-color);
+}
+
+.leaderboard-table thead tr {
+  background-color: #eef2ff;
+  color: #387cca;
+  text-align: left;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px 16px;
+}
+
+
+.leaderboard-table tbody tr:hover {
+  background-color: #92c4ec;
+  transition: background 0.3s ease;
+}
+
+.leaderboard-table td {
+  font-weight: 500;
+}
+
+.leaderboard-table td:nth-child(3) {
+  color: #16a34a;
+  font-weight: bold;
+}

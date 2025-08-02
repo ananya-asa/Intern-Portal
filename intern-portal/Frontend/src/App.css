@@ -1,0 +1,92 @@
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --nav-bg-color: #1f6fb9;        
+  --button-bg-color: white;
+  --button-text-color: #067488;     
+  --card-bg-color: #ffffff;
+}
+
+
+body.dark {
+  --bg-color: #232529; 
+  --text-color: #eceff4; 
+  --nav-bg-color: #4d5566; 
+  --button-bg-color: #88c0d0; 
+  --button-text-color: #2e3440;
+  --card-bg-color: #434c5e; 
+  --toggle-bg-color: #4c566a;
+  --toggle-text-color: #eceff4;
+}
+
+
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+ 
+
+
+
+
+  .dashboard-container {
+    flex-direction: column;
+    padding: 16px;
+    gap: 70px;
+  }
+
+  .home-container {
+    margin: 60px auto;
+    padding: 16px;
+  }
+
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-buttons {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .btn {
+    width: 30%;
+    font-size: 1.1rem;
+  }
+
+  .leaderboard-container {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .leaderboard-title {
+    font-size: 22px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .auth-form,
+  .login-container {
+    padding: 24px;
+    margin: 60px auto;
+  }
+
+  .login-button,
+  .auth-button {
+    font-size: 15px;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f8f9fa; 
+  color: #333; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 0.95rem;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.05);
+}
+body.dark .footer {
+  background-color: #252323;   
+  color: #f1f1f1;           
+  box-shadow: 0 -1px 4px rgba(255, 255, 255, 0.1); 
+}
