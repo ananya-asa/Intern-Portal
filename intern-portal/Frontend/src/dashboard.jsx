@@ -9,8 +9,11 @@ function Dashboard(){
  const[intern,setIntern]=useState(null);
  
  useEffect(()=>{
+ const baseUrl = import.meta.env.VITE_API_BASE_URL;
+
+
     const referralCode = "ananya2025";
-    axios.get(`http://localhost:5000/api/intern/${referralCode}`)
+    axios.get(`${baseUrl}/api/intern/${referralCode}`)
     .then(response=>{
       setIntern(response.data)
     })
