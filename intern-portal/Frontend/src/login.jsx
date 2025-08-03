@@ -30,7 +30,7 @@ toast.success("Login successful!");
         <br></br>
         <button type="submit" className="login-button">Login</button>
         <p className="auth-footer">
-        Don't have an account? <Link to="/login">Signup</Link></p>
+        Don't have an account? <Link to="/signup">Signup</Link></p>
       </form>
       </div>
         </>

@@ -36,7 +36,7 @@ const handleLogout=()=>{
             <Route path="/dashboard" element={< Dashboard/>}></Route>
             <Route path="/leaderboard" element={<LeaderBoard />}></Route>
         </Routes>
-        <ToastContainer position="top-right" autoClose={2000} />
+        <ToastContainer position="top-right" autoClose={1000} />
 
         </>
     )

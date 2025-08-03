@@ -1,4 +1,4 @@
-/* Dashboard Colors - using app.css variables */
+
 .dashboard-heading {
   max-width: 900px;
   margin: 30px auto 20px;
@@ -8,7 +8,7 @@
   color: var(--text-color);
 }
 
-/* Container for left and right sections */
+
 .dashboard-container {
   max-width: 900px;
   margin: 0 auto 50px;
@@ -18,7 +18,7 @@
   flex-wrap: wrap;
 }
 
-/* Left section styles */
+
 .left-section,
 .right-section {
   flex: 1;
@@ -33,7 +33,7 @@
   color: var(--text-color);
 }
 
-/* Specific text colors */
+
 .left-section h3 {
   margin: 0;
   font-weight: 600;

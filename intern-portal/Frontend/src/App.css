@@ -1,4 +1,3 @@
-
 :root {
   --bg-color: #ffffff;
   --text-color: #222222;
@@ -7,7 +6,6 @@
   --button-text-color: #067488;     
   --card-bg-color: #ffffff;
 }
-
 
 body.dark {
   --bg-color: #232529; 
@@ -20,8 +18,6 @@ body.dark {
   --toggle-text-color: #eceff4;
 }
 
-
-
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -31,17 +27,42 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Desktop layout */
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width: 768px) {
- 
-
-
-
-
   .dashboard-container {
+    display: flex;
     flex-direction: column;
+    align-items: center; /* Center contents horizontally */
     padding: 16px;
-    gap: 70px;
+    gap: 40px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .left-section h2,
+  .left-section h3,
+  .right-section h2 {
+    text-align: center;
   }
 
   .home-container {
